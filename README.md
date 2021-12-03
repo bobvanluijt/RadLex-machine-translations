@@ -20,14 +20,19 @@ The output file will look like: `RadLex.{LANG}.owl` and is in XML format.
 ## Example node
 
 ```xml
-<rdf:Description rdf:about="http://www.radlex.org/RID/RID43011">
+<rdf:Description rdf:about="http://www.radlex.org/RID/RID49888">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID42998"/>
-    <FMAID>296521</FMAID>
-    <Preferred_name xml:lang="en">segment of inferior glenohumeral ligament</Preferred_name>
-    <Preferred_name_German xml:lang="de">Segment des unteren Ligamentum glenohumerale</Preferred_name_German>
-    <rdfs:label xml:lang="en">RID43011</rdfs:label>
-    <Preferred_name_Dutch xml:lang="nl">segment van het onderste glenohumerale ligament</Preferred_name_Dutch>
+    <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49887"/>
+    <Comment>Recently, authors have subclassified comet-tail artifacts into small and large types and found a prevalence of malignancy of 15% in nodules that had echogenic foci with small comet-tail artifacts [12]. Conversely, when considering large comet-tail artifacts in cystic or partially cystic nodules, multiple studies have shown a strong association with benignity</Comment>
+    <Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-18T00:00:00</Created>
+    <Preferred_name xml:lang="en">comet-tail artifact (large)</Preferred_name>
+    <Preferred_name_German xml:lang="de">Kometenschweifartefakt (groß)</Preferred_name_German>
+    <Radlex_version_of_class_change>3.14</Radlex_version_of_class_change>
+    <Source>TI-RADS</Source>
+    <Synonym xml:lang="de">Kometenschweifartefakt (ausgeprägt)</Synonym>
+    <rdfs:label xml:lang="en">RID49888</rdfs:label>
+    <Preferred_name_Dutch xml:lang="nl">komeetstaartartefact (groot)</Preferred_name_Dutch>
+    <Comment_Dutch xml:lang="nl">Onlangs hebben auteurs komeetstaartartefacten onderverdeeld in kleine en grote typen en een prevalentie van maligniteit van 15% gevonden in knobbeltjes met echogene foci met kleine komeetstaartartefacten [12]. Omgekeerd, bij het overwegen van grote komeetstaartartefacten in cystische of gedeeltelijk cystische knobbeltjes, hebben meerdere onderzoeken een sterke associatie aangetoond met goedaardigheid</Comment_Dutch>
   </rdf:Description>
 ```
 
